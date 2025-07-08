@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Careers - YuHai Technology</title>
+  <link rel="stylesheet" href="careers.css">
+</head>
+<body>
+  <header>
+    <h1>💼 Careers at YuHai</h1>
+    <p>Explore opportunities to join our innovative team.</p>
+  </header>
+
+  <main class="career-container" id="careerContainer">
+    <!-- Jobs will load dynamically -->
+  </main>
+
+  <!-- Application Modal -->
+<div id="applyModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <h2 id="jobTitle">Apply for Job</h2>
+    <form id="applyForm" onsubmit="submitApplication(event)">
+      <input type="text" id="applicantName" placeholder="Your Name" required />
+      <input type="email" id="applicantEmail" placeholder="Your Email" required />
+      <textarea id="applicantMessage" placeholder="Your Message…" required></textarea>
+      <button type="submit">Submit Application</button>
+    </form>
+  </div>
+</div>
+
+
+  <script src="careers.js"></script>
+</body>
+</html>

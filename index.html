@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YuHai Technology & Supplies</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+</head>
+<body>
+  <!-- Header and Navigation -->
+  <header>
+    <h1>YuHai Technology & Supplies</h1>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <nav id="navMenu">
+      <a href="about.html">👤 About Us</a>
+      <a href="products.html">📦 Products</a>
+      <a href="visionandmission.html">🎯 Vision & Mission</a>
+      <a href="blog.html">📝 Blogs</a>
+      <a href="careers.html">💼 Careers </a>
+      <a href="faq.html">📖 FAQ </a>
+      <a href="contact.html">✉️ Contact</a>
+      <a href="tel:+919711074227" class="phone-link">📞 +91-9711074227</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <h2>Advanced Conveyor & Industrial Solutions</h2>
+    <button onclick="scrollToSection('products')">Explore Products</button>
+  </section>
+
+  <!-- Our Team Section -->
+  <section id="team">
+    <div class="container">
+      <h2 class="section-title">Our World Class Team</h2>
+      <div class="team-grid">
+        <!-- Team Member Card -->
+        <div class="team-member" data-aos="fade-up">
+          <img src="https://i0.wp.com/www.yuhaitechnology.com/wp-content/uploads/2023/06/Anshul-Garg-267x352.jpg" alt="Anshul Garg">
+          <h3>Anshul Garg</h3>
+          <p>Director</p>
+        </div>
+        <!-- Repeat for other team members -->
+        <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+          <img src="https://i0.wp.com/www.yuhaitechnology.com/wp-content/uploads/2023/06/James-Yu-267x352.jpg" alt="Xiang Yu">
+          <h3>Xiang Yu</h3>
+          <p>Director</p>
+        </div>
+        <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+          <img src="https://i0.wp.com/www.yuhaitechnology.com/wp-content/uploads/2023/05/human-icon-267x352.png" alt="Lei Chen">
+          <h3>Lei Chen</h3>
+          <p>Director</p>
+        </div>
+        <div class="team-member" data-aos="fade-up" data-aos-delay="300">
+          <img src="https://i0.wp.com/www.yuhaitechnology.com/wp-content/uploads/2023/05/human-icon-267x352.png" alt="Jiexiong Li">
+          <h3>Jiexiong Li</h3>
+          <p>Director</p>
+        </div>
+        <!-- Add more as needed -->
+      </div>
+    </div>
+  </section>
+
+
+  <section id="infrastructure">
+  <div class="container">
+    <h2 class="section-title">Technology & Infrastructure</h2>
+    
+    <div class="infra-grid">
+      <!-- Physical Infrastructure -->
+      <div class="infra-card" data-aos="fade-up">
+        <i class="fas fa-server infra-icon"></i>
+        <h3>Physical Infrastructure</h3>
+        <ul>
+          <li>Server racks & enclosures</li>
+          <li>Power systems (UPS, PDUs, backup generators)</li>
+          <li>Cooling systems (CRAC/CRAH, hot/cold aisle containment)</li>
+          <li>Cabling & connectivity (copper & fiber-optic)</li>
+        </ul>
+      </div>
+
+      <!-- Logical Infra -->
+      <div class="infra-card" data-aos="fade-up" data-aos-delay="100">
+        <i class="fas fa-cloud infra-icon"></i>
+        <h3>Logical Infrastructure</h3>
+        <ul>
+          <li>Rack & blade servers</li>
+          <li>Storage solutions: DAS, NAS, SAN</li>
+          <li>Networking: routers, switches, firewalls, load balancers</li>
+          <li>Data management & virtualization</li>
+        </ul>
+      </div>
+
+      <!-- Monitoring & Security -->
+      <div class="infra-card" data-aos="fade-up" data-aos-delay="200">
+        <i class="fas fa-shield-alt infra-icon"></i>
+        <h3>Monitoring & Security</h3>
+        <ul>
+          <li>Temperature & airflow monitoring</li>
+          <li>Battery and power quality sensors</li>
+          <li>Fire suppression & smoke detection</li>
+          <li>Access controls & CCTV</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+  
+
+  <!-- Footer Section -->
+  <footer class="footer-flex">
+    <div class="footer-left">
+      <h4>Official Info</h4>
+      <p><strong>Open Hours:</strong><br>
+      🗓️ Mon – Sat: 09:00 AM – 05:30 PM<br>
+      🛑 Sunday: CLOSED</p>
+    </div>
+
+    <div class="footer-center">
+      <p><a href="tel:+919711074227">📞 +91-9711074227</a> | <a href="https://wa.me/919711074227" target="_blank">💬 WhatsApp</a></p>
+      <p><strong>Address:</strong><br>
+        <a href="https://www.google.com/maps/place/Plot+No.+183/184,+Ecotech‑1+Ext,+Kasna,+Greater+Noida,+Uttar+Pradesh+201310" target="_blank" rel="noopener noreferrer">
+          📍 Plot No. 183/184, Ecotech‑1 Ext, Kasna,<br>
+          Greater Noida, Uttar Pradesh, India – 201310
+        </a>
+      </p>
+      <p>&copy; 2025 YuHai Technology. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button id="scrollTopBtn" title="Back to Top">↑</button>
+
+  <!-- Scripts -->
+  <script src="index.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({duration: 800, once: true});
+    function toggleMenu() {
+      document.getElementById("navMenu").classList.toggle("show");
+    }
+    function scrollToSection(id) {
+      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
